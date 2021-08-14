@@ -1,3 +1,5 @@
+package Stackk;
+
 public class Stack {
     private int[] stack;
     private int top;
@@ -29,7 +31,7 @@ public class Stack {
         return top + 1;
     }
 
-    // Fahim code starts form here
+    // Stranger code starts form here
     public void displayStack() {
         for (int i = 0; i <= top; i++) {
             System.out.print(stack[i] + ", ");
